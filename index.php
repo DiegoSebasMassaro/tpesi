@@ -11,9 +11,9 @@
                 <form action="palabras-def.php" method="POST">
                     <label for="valor" >Eligir palabra</label>
                     <select name="valor" id="valor">
-                        <option value="Igualdad">Igualdad</option>
-                        <option value="Derecho">Derecho</option>
-                        <option value="Diversidad">Diversidad</option>
+                        <option value="igualdad">Igualdad</option>
+                        <option value="derechos">Derecho</option>
+                        <option value="diversidad">Diversidad</option>
 
                     </select>
 

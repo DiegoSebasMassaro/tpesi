@@ -45,14 +45,16 @@ if (array_key_exists($valor, $mensajes)) {
 
 <div class="container mt-5">
     <div class="col-5 mx-auto">
-        <h1 class="mb-4 fs-3">Palabra: 
-            Alumno:<?= $alumno ?> </h1>
+        <h2 class="text-center">Palabra: <?= $valor ?> 
+             </h2>
+             <h2 class="text-center">Alumno:<?= $alumno ?></h2>
         <div class="alert alert-success" role="alert">
             <?= $mensaje ?>
         </div>
+        <div><img width="450px" src="img/<?=$img?>" alt="#"></div>
 
-        <img width="400px" src="img/<?= $imagen ?>" alt="">
-        <a href="index.php" class="mt-3 btn btn- success">volver</a>
+ 
+        <a href="index.php" class="mt-3 btn btn-success">volver</a>
     </div>
 </div>
 
