@@ -7,7 +7,7 @@
     <select name="valor" id="valor">
         <option value="verde">Igualdad</option>
         <option value="amarillo">Derecho</option>
-        <option value="azul">Diversidad</option>
+        <option value="azul">Diversidad </option>
        
 
     </select>
