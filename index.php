@@ -1,17 +1,14 @@
 <?php require "partials/header.php" ?>
 
-<div class="container text-center mt-5 text-success">
-    <div class="row">
-        <div class="col">
-            <h1>BIENVENIDOS A LA CLASE ESI: "LOS FRIKIS"</h1>
-        </div>
-    </div>
+
+
 
 
     <div class="container text-center mt-5">
         <div class="row">
+            <h1 class="text-center  text-success">BIENVENIDOS A LA CLASE ESI: "LOS FRIKIS"</h1>
             <div class="col">
-                <form action="colores-def.php" method="POST">
+                <form action="palabras-def.php" method="POST">
                     <label for="valor" >Eligir palabra</label>
                     <select name="valor" id="valor">
                         <option value="Igualdad">Igualdad</option>
